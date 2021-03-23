@@ -31,9 +31,9 @@ real, para que os funcionários pudessem ter um histórico e detectarem problema
 ## 3.3 Workflow
 Para ingestão dos dados, utilizamos o serviço de workflow do SAP Cloud Platform, orquestrando o fluxo de dados tratados dos sensores. Dessa forma, definimos níveis de criticidade e uma ação a ser executada com base no dado analisado: 
 
-<b>Nível baixo:</b> Nenhuma ação é executada;
-<b>Nível intermediário:</b> E-mail enviado para os engenheiros responsáveis, alertando sobre a criticidade para que uma ação de revisão das condições da barragem seja planejada;
-<b>Nível crítico:</b> E-mail enviado para a diretoria, engenheiros e demais responsáveis pela respectiva barragem, afim de executar planos de contingência e evacuação dos trabalhores e população ao redores. 
+  * <b>Nível baixo:</b> Nenhuma ação é executada;
+  * <b>Nível intermediário:</b> E-mail enviado para os engenheiros responsáveis, alertando sobre a criticidade para que uma ação de revisão das condições da barragem seja planejada;
+  * <b>Nível crítico:</b> E-mail enviado para a diretoria, engenheiros e demais responsáveis pela respectiva barragem, afim de executar planos de contingência e evacuação dos trabalhores e população ao redores. 
 
 
 Através desses alertas, as partes interessadas são informadas de imediato sobre as condições de cada sensor, permitindo que planos de manutenção da barragem sejam elaborados e executados mais rapidamente, diminuindo custos e prevenindo tragédias.
