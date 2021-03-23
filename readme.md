@@ -29,7 +29,7 @@ ou que exigisse a atenção dos técnicos. Os produtos dos modelos são enviados
 real, para que os funcionários pudessem ter um histórico e detectarem problemas, como falhas no sistema de sensoriamento.
 
 ## 3.3 Workflow
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para ingestão dos dados, utilizamos o serviço de workflow do SAP Cloud Platform, orquestrando o fluxo de dados tratados dos sensores. Dessa forma, definimos níveis de criticidade e uma ação a ser executada com base no dado analisado: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para consumo dos dados, utilizamos o serviço de workflow do SAP Cloud Platform, orquestrando o fluxo de dados tratados dos sensores. Dessa forma, definimos níveis de criticidade e uma ação a ser executada com base no dado analisado: 
 
   * <b>Nível baixo:</b> Nenhuma ação é executada;
   * <b>Nível intermediário:</b> E-mail enviado para os engenheiros responsáveis, alertando sobre a criticidade para que uma ação de revisão das condições da barragem seja planejada;
