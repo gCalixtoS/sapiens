@@ -33,7 +33,7 @@ real, para que os funcionários pudessem ter um histórico e detectarem problema
 
   * <b>Nível baixo:</b> Nenhuma ação é executada;
   * <b>Nível intermediário:</b> E-mail enviado para os engenheiros responsáveis, alertando sobre a criticidade para que uma ação de revisão das condições da barragem seja planejada;
-  * <b>Nível crítico:</b> E-mail enviado para a diretoria, engenheiros e demais responsáveis pela respectiva barragem, afim de executar planos de contingência e evacuação dos trabalhores e população ao redores. 
+  * <b>Nível crítico:</b> E-mail enviado para a diretoria, engenheiros e demais responsáveis pela respectiva barragem, afim de executar planos de contingência e evacuação dos trabalhadores e população ao redores. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Através desses alertas, as partes interessadas são informadas de imediato sobre as condições de cada sensor, permitindo que planos de manutenção da barragem sejam elaborados e executados mais rapidamente, diminuindo custos e prevenindo tragédias.
