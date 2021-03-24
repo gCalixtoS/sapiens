@@ -16,6 +16,13 @@ Para que isso fosse possível, tivemos de montar um protótipo físico utiizando
 classificarmos as mensagens.
 
 ## 3.1 IoT
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Para a parte de simulação, montamos uma maquete no modelo de uma barragem, fizemos o sensoriamento para coletar os dados e o sistema IOT para mandá-los ao SAP HANA a fim de serem processados pelos modelos de IA e o workflow. Para tal utilizamos:
+  * <b>Sensor HC-SR04:</b> Sensor de ultrassom para monitorar o nível de água da barragem.
+  * <b>Arduino UNO:</b> Para processar os dados e fazer a comunicação com o ESP8266.
+  * <b>ESP8266:</b> Para conectar o sistema à internet e enviar os dados para o SAP HANA.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Com a maquete e o sistema IOT pudemos simular situações onde a barragem apresentava condições de normalidade e criticidade dependendo do nível da água, essas condições eram detectadas e devidamente processadas em tempo real.
+
 
 ## 3.2 Data Science
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para a parte cognitiva, treinamos nossos modelos com os dados do sensor de ultrassom e assim pudemos montar dois modelos de inteligência artificial:
